@@ -7,7 +7,7 @@ Bu proje, acil servislerde hasta kayıtlarını yönetmek amacıyla geliştirile
 - Hastaları kimin daha acil olduğuna göre sıralamaktadır
 - Reçete numarası oluşturma
 
-## Hasta Öncelik Durumu
+## HASTA ÖNCELİK SIRALANDIRMASI
 
 Hastalar, aşağıdaki kriterlere göre önceliklendirilir:
 
@@ -17,10 +17,14 @@ Hastalar, aşağıdaki kriterlere göre önceliklendirilir:
 
 - Manuel olarak kullanıcı tarafından 1 (en düşük) ile 5 (en yüksek) arasında belirlenebilir
 
+## HASTA LİSTELENME FORMATI
+Hastalar listelenmek istenildiği zaman HL7 formatında sıralanmaktadır.
+HL7 formantı aşağıdaki gibidir:
+> PID|Sıra No||Belge No||Kimlik No||İsim^Soyisim||YYYYMMDD||Cinsiyet||Adres Bilgileri||Telefon No|
+
 ## NASIL ÇALIŞTIRILIR?
-İnternet üzerinden uygulamaya gerek olmadan çalışan bir derleyici:   <a href="https://www.onlinegdb.com/online_c_compiler">Online C Compiler</a>
+İnternet üzerinden uygulamaya gerek olmadan çalışan bir derleyici: [Online C Compiler](https://www.onlinegdb.com/online_c_compiler)
 
-Windows bilgisayarda çalışması için: <a href="https://sourceforge.net/projects/dev-cpp/files/Binaries/Dev-C%2B%2B%204.9.9.2/devcpp-4.9.9.2_setup.exe/download"> DevC++(Direk indirme sayfasına atar)</a>
+Windows bilgisayarda çalışması için: [DevC++(Direk indirme sayfasına atar)](https://sourceforge.net/projects/dev-cpp/files/Binaries/Dev-C%2B%2B%204.9.9.2/devcpp-4.9.9.2_setup.exe/download) 
 
-Diğer bilgisayarlarda çalışması için <a href="https://code.visualstudio.com/Download">Visual Studio</a> 
- 
+Tüm bilgisayarlarda çalışması için: [Visual Studio](https://code.visualstudio.com/Download)
