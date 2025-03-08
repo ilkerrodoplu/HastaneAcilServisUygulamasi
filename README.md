@@ -1,6 +1,6 @@
 # Hastane Acil Servis Uygulamasi
 ## ÖZELLİKLER
-Bu proje, acil servislerde hasta kayıtlarını yönetmek amacıyla geliştirilen bir C programıdır. 
+Bu proje, acil servislerde hasta kayıtlarını yönetmek amacıyla geliştirilen C diliyle yazılmış bir programıdır. 
 
 ## NEREDE KULLANILIR ?
 - Yeni hasta kaydı oluşturma
